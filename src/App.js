@@ -1,6 +1,14 @@
+import Header from './Components/Header';
+import Dashboard from './pages/Dashboard';
+import {GlobalStyle} from './styles/global';
+
 function App() {
   return (
-    <h1>Welcome to trainee!</h1>
+    <>
+      <GlobalStyle />
+      <Header />
+      <Dashboard />
+    </>
   );
 }
 
