@@ -31,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: url(${BG}) no-repeat;
+        background: url(${BG}) no-repeat center fixed; 
         background-size: cover;
     }
 `;
