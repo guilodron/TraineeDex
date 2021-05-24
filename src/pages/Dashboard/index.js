@@ -9,7 +9,7 @@ const Dashboard = () => {
     return (
         <Container>
             {pokemons.map((pokemon, index) => (
-                <PokemonCard pokemon={pokemon}/>
+                <PokemonCard pokemon={pokemon} index={index} />
             ))}
             {/* <PokemonCard pokemon={bulbasaur} /> */}
         </Container>
